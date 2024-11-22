@@ -1,0 +1,86 @@
+
+
+
+/* Aplica reset global */
+* {
+    margin: 0; /* Remove todas as margens externas dos elementos */
+    padding: 0; /* Remove todo o espaçamento interno */
+    box-sizing: border-box; /* Inclui a borda e o padding no cálculo da largura/altura */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.cadastro {
+    text-decoration: ;
+    background-image: url(../img/fundo.jpg); /* Define uma imagem de fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Não repete a imagem de fundo */
+    background-size: cover; /* A imagem cobre todo o contêiner, ajustando-se à tela */
+    min-height: 100vh; /* Altura mínima de 100% da altura da viewport */
+    display: flex; /* Habilita Flexbox para organizar os itens */
+    flex-direction: column; /* Organiza os itens verticalmente */
+    align-items: center; /* Centraliza os itens no eixo horizontal */
+}
+
+.box {
+    width: 930px; /* Define a largura como 930 pixels */
+    height: 700px; /* Define a altura como 700 pixels */
+    margin: 1%; /* Define uma margem externa de 1% ao redor */
+    display: flex; /* Usa Flexbox para alinhar os filhos */
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+    background-color: rgba(255, 0, 0, 0.205);
+    background-color: rgba(0, 128, 0, 0.363);
+}
+
+.img-box {
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo branco com 50% de transparência */
+    border-radius: 20px 0 0 20px; /* Arredonda os cantos esquerdo superior e inferior */
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.form-box {
+    background-color: rgba(0, 0, 0, 0.267); /* Fundo preto com 26.7% de transparência */
+    backdrop-filter: blur(40px); /* Aplica um desfoque no fundo atrás do elemento */
+    padding: 30px 40px; /* Adiciona 30px de padding no topo e 40px nas laterais */
+    border-radius: 0 20px 20px 0; /* Arredonda os cantos direito superior e inferior */
+}
+
+.form-box h2 {
+    font-size: 40px; /* Define o tamanho da fonte como 40px */
+    text-align: center; /* Centraliza o texto */
+    color: rgba(255, 255, 255, 0.671); /* Texto branco com 67.1% de transparência */
+}
+
+.form-box p {
+    font-size: 24px; /* Tamanho da fonte de 24px */
+    color: #ffffffa2; /* Texto branco com transparência */
+    text-align: right; /* Alinha o texto à direita */
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+.form-box p a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: rgb(66, 1, 1); /* Define a cor do link como vermelho escuro */
+}
+
+.form-box input {
+    width: 100%; /* Define a largura do campo de entrada como 100% do pai */
+    height: 40px; /* Altura de 40px */
+    background-color: rgba(0, 0, 0, 0.418); /* Fundo preto com 41.8% de transparência */
+    outline: none; /* Remove o contorno padrão quando em foco */
+    border: 2px solid transparent; /* Borda transparente de 2px */
+    padding: 15px; /* Adiciona 15px de padding interno */
+    font-size: 15px; /* Tamanho da fonte de 15px */
+    color: #3d3d3d; /* Texto cinza escuro */
+    transition: all 0.4s ease; /* Transição suave para todas as mudanças em 0.4s */
+}
+
+.form-box input::placeholder {
+    color: rgba(255, 0, 0, 0.555); /* Cor do placeholder em vermelho com transparência */
+}
+
+.form-box input:focus {
+    border-color: rgba(150, 19, 19, 0.637); /* Borda vermelha ao focar no campo */
+}
