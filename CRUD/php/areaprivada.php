@@ -111,8 +111,8 @@
                     echo "<td>" . htmlspecialchars($usuario['nome']) . "</td>";
                     echo "<td>" . htmlspecialchars($usuario['email']) . "</td>";
                     echo "<td class='actions'>
-                            <a href='editar.php?id=" . $usuario['id_usuario'] . "' class='btn btn-edit'>Editar</a>
-                            <a href='deletar.php?id=" . $usuario['id_usuario'] . "' class='btn btn-delete'>Deletar</a>
+                            <a href='editar_usuario.php?id=" . $usuario['id_usuario'] . "' class='btn btn-edit'>Editar</a>
+                            <a href='excluir_editar.php?id=" . $usuario['id_usuario'] . "' class='btn btn-delete'>Deletar</a>
                           </td>";
                     echo "</tr>";
                 }
